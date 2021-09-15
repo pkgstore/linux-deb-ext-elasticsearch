@@ -14,7 +14,6 @@ Rules-Requires-Root: no
 Package: ext-elasticsearch
 Architecture: all
 Depends: elasticsearch
-        ,${shlibs:Depends}
         ,${misc:Depends}
 Description: META-package for install and configure Elasticsearch
  META-package for install and configure Elasticsearch.
